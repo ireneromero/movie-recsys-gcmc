@@ -1,5 +1,5 @@
 import unittest
-from src.neo4j.Utils import connect_from_file, query_graph
+from src.neo4j.utils import connect_from_file, query_graph
 class TestNeo4J(unittest.TestCase):
 
     PATH_CONNECTION = '/home/irene/dev/movie-recsys-gcmc/env/neo4j_connection.json'
